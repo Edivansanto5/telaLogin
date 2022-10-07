@@ -5,8 +5,6 @@ import '@/assets/css/main.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
 
 createApp(App).use(router).mount('#app')
-
-
 Vue.config.productionTip = false
 new Vue({
   router,
