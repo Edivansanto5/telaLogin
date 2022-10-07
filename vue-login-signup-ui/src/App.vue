@@ -1,9 +1,19 @@
 <template>
   <nav>
-   
+    <TelaLogin/>
   </nav>
   <router-view/>
 </template>
+
+<script>
+import TelaLogin from './components/TelaLogin.vue'
+export default {
+  name:'App',
+  components:{
+    TelaLogin
+  }
+}
+</script>
 
 <style>
 
@@ -21,7 +31,7 @@ nav {
 
 nav a {
   font-weight: bold;
-  color: #2c3e50;
+  color: #312c50;
 }
 
 nav a.router-link-exact-active {

@@ -18,6 +18,7 @@
   .navbar-light {
     background-color: #ffffff;
     box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+    
   }
   .vertical-center {
     display: flex;
@@ -26,13 +27,13 @@
     flex-direction: column;    
   }
   .inner-block {
-    width: 450px;
-    margin: auto;
+    width: 100v;
     background: #ffffff;
     box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
     padding: 40px 55px 45px 55px;
     border-radius: 15px;
     transition: all .3s;
+    
   }
   .vertical-center .form-control:focus {
     border-color: #2554FF;
@@ -54,6 +55,7 @@
     padding-top: 10px;
     color: #7a7a7a;
     margin: 0;
+    
   }
   .forgot-password a {
     color: #2554FF;
@@ -100,3 +102,4 @@
     transition: none;
     color: #222222;
   }
+  
