@@ -6,7 +6,6 @@
 }
 .container{
     display: flex;                      /* joga uma div ao lado da outra*/
-    border: 4px solid chocolate;
     justify-content: center;             /* vai centralizar as div*/
     align-items: center;                /* centralizar os itens ao centro*/
     height: 100vh;                      /*  altura do veuport*/
