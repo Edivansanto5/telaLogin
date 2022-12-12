@@ -13,10 +13,14 @@
 .primeiro-conteudo{
     display: flex;                          /*vai colocar uma coluna ao lado da outra*/
 }
+.lista-media{
+    display: flex;                          /*vai colocar uma coluna ao lado da outra por padrao*/
+}
+.form{
+    display: flex;                          /*vai colocar uma coluna ao lado da outra por padrao*/
+    flex-direction: column;                 /*vai colocar mostra a direcao do flex aqui e um embaixo do outro*/
+}
 .segundo-conteudo{
     position: absolute;                 /*  ele vai sobre por a segunda div na primeira*/
     display: none;
-}
-.lista-media{
-    display: flex;
 }
