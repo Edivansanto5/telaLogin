@@ -10,3 +10,7 @@
     align-items: center;                /* centralizar os itens ao centro*/
     height: 100vh;                      /*  altura do veuport*/
 }
+.segundo-conteudo{
+    position: absolute;                 /*  ele vai sobre por a segunda div na primeira*/
+    display: none;
+}
