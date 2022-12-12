@@ -1,5 +1,13 @@
+ /* resetando as proprieadades padrao */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;               /* vai colar as borda da div a toda borda da tela */
+}
 .container{
-    display: flex; /* joga uma div ao lado da outra*/
+    display: flex;                      /* joga uma div ao lado da outra*/
     border: 4px solid chocolate;
-    justify-content: center;  /* vai centralizar as div*/
+    justify-content: center;             /* vai centralizar as div*/
+    align-items: center;                /* centralizar os itens ao centro*/
+    height: 100vh;                      /*  altura do veuport*/
 }
