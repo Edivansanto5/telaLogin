@@ -10,6 +10,9 @@
     align-items: center;                /* centralizar os itens ao centro*/
     height: 100vh;                      /*  altura do veuport*/
 }
+.content{
+    border-radius: 15px;
+}
 .primeiro-conteudo{
     display: flex;                          /*vai colocar uma coluna ao lado da outra*/
 }
