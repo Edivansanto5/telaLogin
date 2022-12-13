@@ -5,6 +5,10 @@
     margin: 0;                            /*margim 0*/
     box-sizing: border-box;               /* vai colar as borda da div a toda borda da tela */
 }
+body{
+    font-family: 'Open Sans', sans-serif;       /*font do google*/
+    font-size: 18px;
+}
 .container{
     display: flex;                      /* joga uma div ao lado da outra*/
     justify-content: center;             /* vai centralizar as div*/
@@ -36,8 +40,8 @@
 .primeira-coluna{
     text-align: center;
     flex: 1 0 auto;
-    z-index: 10;                    /*vai elevar os items pra cima*/
-    font-family: 'Open Sans', sans-serif;
+    z-index: 10;                                /*vai elevar os items pra cima*/
+    
 }
 .segunda-coluna{ 
     flex: 2 0 auto;
