@@ -23,7 +23,14 @@
 }
 .primeiro-conteudo{
     display: flex;                          /*vai colocar uma coluna ao lado da outra*/
-}f
+}
+.primeira-coluna{
+    text-align: center;
+    flex: 1 0 auto;
+}
+.segunda-coluna{ 
+    flex: 2 0 auto;
+}
 .lista-media{
     display: flex;                          /*vai colocar uma coluna ao lado da outra por padrao*/
 }
