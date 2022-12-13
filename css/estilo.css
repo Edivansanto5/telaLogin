@@ -19,11 +19,19 @@
     display: flex;
     justify-content: space-between;        /*vai da um espaco entre as colunas*/
     align-items: center;
+    position: relative;
 
+} 
+.content::before{
+    content: "";
+    position: absolute;
+    background-color: #58af9b;
+    width: 40%;
+    height: 100%;
 }
 .primeiro-conteudo{
     display: flex;                          /*vai colocar uma coluna ao lado da outra*/
-}
+} 
 .primeira-coluna{
     text-align: center;
     flex: 1 0 auto;
