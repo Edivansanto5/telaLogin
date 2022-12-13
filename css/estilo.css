@@ -49,6 +49,9 @@ body{
     font-weight: bold;
     text-transform: capitalize;                /*pega as primeiras letras e coloca em maiscula*/
 }
+.title-welcone{
+    color: #58af9b;
+}
 .segunda-coluna{ 
     flex: 2 0 auto;
 }
