@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;1,400&display=swap');
  /* resetando as proprieadades padrao */
 *{
     padding: 0;
@@ -36,6 +37,7 @@
     text-align: center;
     flex: 1 0 auto;
     z-index: 10;                    /*vai elevar os items pra cima*/
+    font-family: 'Open Sans', sans-serif;
 }
 .segunda-coluna{ 
     flex: 2 0 auto;
