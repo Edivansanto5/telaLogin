@@ -49,6 +49,12 @@ body{
     font-weight: bold;
     text-transform: capitalize;                /*pega as primeiras letras e coloca em maiscula*/
 }
+.descricao{
+    font-size: 14px;
+    font-weight: 300;
+    color: #fff;
+    line-height: 25px;
+}
 .title-welcone{
     color: #fff;
 }
