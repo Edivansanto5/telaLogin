@@ -94,6 +94,8 @@ body{
 .item-socialmedia {
     border: 1px solid #95a5a6;
     border-radius: 50%;
+    width: 40px;
+    height: 40px;
 }
 .form{
     display: flex;                          /*vai colocar uma coluna ao lado da outra por padrao*/
