@@ -17,9 +17,9 @@ body{
     background-color: #ecf0f1;        /*  altura do veuport*/
 }
 .content{
-    border-radius: 15px;
+    /* border-radius: 15px; */
     background-color: #fff;
-    width: 80%;
+    width: 960px;
     height: 50%;
     display: flex;
     justify-content: space-between;        /*vai da um espaco entre as colunas*/
@@ -72,8 +72,6 @@ body{
     align-self: center;                     /* vai alinhar o proprio botao ao centro dele mesmo*/
     /* border-width: 0; */
     border: none; /* remover bordas do botao que vem por padrao dos navegadores*/
-    background-color: #58af9b;
-    
 
 }
 .btn-primary{
@@ -86,7 +84,7 @@ body{
 }
 .btn-second{
     background-color: #58af9b;
-    border: 1px solid #58af9b;    
+      
 }
 .btn-second:hover{
     background-color: #fff;
