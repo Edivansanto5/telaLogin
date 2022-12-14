@@ -34,14 +34,15 @@ body{
     width: 40%;
     height: 100%;
 }
+/* inicio do primeiro conteudo com a primeira coluna*/
+
 .primeiro-conteudo{
     display: flex;                          /*vai colocar uma coluna ao lado da outra*/
 } 
 .primeira-coluna{
     text-align: center;
     flex: 1 0 auto;
-    z-index: 10;                                /*vai elevar os items pra cima*/
-    
+    z-index: 10;                                /*vai elevar os items pra cima*/ 
 }
 .title{
     color: #58af9b;
@@ -58,6 +59,7 @@ body{
     color: #fff;
     line-height: 25px;
 }
+
 .btn{
     border-radius: 15px;
     text-transform: uppercase;                  /* vai colocar as letras em maiscula*/
@@ -75,6 +77,9 @@ body{
     background-color: #fff ; 
     color: #58af9b;   
 }
+
+/* final */
+/* inicio da segunda coluna do primeiro conteudo*/
 
 .segunda-coluna{ 
     flex: 2 0 auto;
@@ -99,12 +104,19 @@ body{
     line-height: 40px;                       /* altura dos incons*/
     text-align: center;                      /* centralizando eles*/
 }
+.descricao-segudo-coluna{
+    color: #95a5a6;
+}
 .form{
     display: flex;                          /*vai colocar uma coluna ao lado da outra por padrao*/
     flex-direction: column;                 /*vai colocar mostra a direcao do flex aqui e um embaixo do outro*/
 }
+/* final*/
+/* inicio do segundo conteudo*/
 .segundo-conteudo{
     position: absolute;                 /*  ele vai sobre por a segunda div na primeira*/
     display: none;
 }
 
+
+/* final*/
