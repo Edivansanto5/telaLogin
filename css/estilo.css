@@ -111,6 +111,11 @@ body{
     display: flex;                          /*vai colocar uma coluna ao lado da outra por padrao*/
     flex-direction: column;                 /*vai colocar mostra a direcao do flex aqui e um embaixo do outro*/
 }
+.form input{
+    height: 45px;                           /* altura da caixa dos input*/
+    border: none;                           /* retira as bordas da caixa do input*/
+
+}
 /* final*/
 /* inicio do segundo conteudo*/
 .segundo-conteudo{
