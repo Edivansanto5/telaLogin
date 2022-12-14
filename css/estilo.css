@@ -132,12 +132,13 @@ body{
     width: 100%;                           /* vai ocupar 100% da label*/
     border: none;                           /* retira as bordas da caixa do input*/
     background-color: #ecf0f1;
-    /* margin: 8px;                            espacamento entre cada input   */
+   
 }
 .label-input{
     background-color: #ecf0f1;
     display: flex;
     align-items: center;
+     margin: 8px;                            /*espacamento entre cada input*/
 }
 /* final*/
 /* inicio do segundo conteudo*/
@@ -146,6 +147,8 @@ body{
     display: none;
 
 }
-
+.icons-input{
+    padding: 10px;
+}
 
 /* final*/
