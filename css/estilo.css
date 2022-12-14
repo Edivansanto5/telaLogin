@@ -110,17 +110,21 @@ body{
 .form{
     display: flex;                          /*vai colocar uma coluna ao lado da outra por padrao*/
     flex-direction: column;                 /*vai colocar mostra a direcao do flex aqui e um embaixo do outro*/
+    width: 60%;
 }
 .form input{
     height: 45px;                           /* altura da caixa dos input*/
     border: none;                           /* retira as bordas da caixa do input*/
-
+    background-color: #ecf0f1;
+    margin: 8px;                            /* espacamento entre cada input*/
+    
 }
 /* final*/
 /* inicio do segundo conteudo*/
 .segundo-conteudo{
     position: absolute;                 /*  ele vai sobre por a segunda div na primeira*/
     display: none;
+
 }
 
 
