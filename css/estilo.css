@@ -64,9 +64,16 @@ body{
     border-radius: 15px;
     text-transform: uppercase;                  /* vai colocar as letras em maiscula*/
     color: #fff;
-    font-size: 12px;
+    font-size: 10px;
     padding: 10px 50px;
     cursor: pointer;
+    width: 150px;
+    font-weight: bold;
+    align-self: center;                     /* vai alinhar o proprio botao ao centro dele mesmo*/
+    /* border-width: 0; */
+    border: none; /* remover bordas do botao que vem por padrao dos navegadores*/
+    background-color: #58af9b;
+    
 
 }
 .btn-primary{
@@ -77,7 +84,16 @@ body{
     background-color: #fff ; 
     color: #58af9b;   
 }
-
+.btn-second{
+    background-color: #58af9b;
+    border: 1px solid #58af9b;    
+}
+.btn-second:hover{
+    background-color: #fff;
+    border: 1px solid #58af9b;
+    color: #58af9b;
+  
+ }
 /* final */
 /* inicio da segunda coluna do primeiro conteudo*/
 
