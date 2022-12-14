@@ -68,8 +68,11 @@ body{
 }
 .btn-primary{
     background-color: transparent;
-    border: 1px solid #fff;
-    
+    border: 1px solid #fff;    
+}
+.btn-primary:hover{
+    background-color: #fff ; 
+    color: #58af9b;   
 }
 .segunda-coluna{ 
     flex: 2 0 auto;
