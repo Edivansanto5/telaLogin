@@ -85,6 +85,7 @@ body{
 }
 .lista-media{
     display: flex;                          /*vai colocar uma coluna ao lado da outra por padrao*/
+    list-style: none;
 }
 .form{
     display: flex;                          /*vai colocar uma coluna ao lado da outra por padrao*/
