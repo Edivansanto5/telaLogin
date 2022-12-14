@@ -131,8 +131,10 @@ body{
     height: 45px;                           /* altura da caixa dos input*/
     border: none;                           /* retira as bordas da caixa do input*/
     background-color: #ecf0f1;
-    margin: 8px;                            /* espacamento entre cada input*/
-    
+    margin: 8px;                            /* espacamento entre cada input*/  
+}
+.label-input{
+    background-color: #ecf0f1;
 }
 /* final*/
 /* inicio do segundo conteudo*/
