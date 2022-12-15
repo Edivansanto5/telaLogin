@@ -21,7 +21,7 @@ body{
     border-radius: 15px;
     background-color: #fff;
     width: 960px;
-    height: 50%;
+    height: 55%;
     display: flex;
     justify-content: space-between;        /*vai da um espaco entre as colunas*/
     align-items: center;
@@ -73,6 +73,7 @@ body{
     align-self: center;                     /* vai alinhar o proprio botao ao centro dele mesmo*/
     /* border-width: 0; */
     border: none; /* remover bordas do botao que vem por padrao dos navegadores*/
+    margin-top: 0.55rem;
 
 }
 .btn-primary{
@@ -123,7 +124,7 @@ body{
     text-align: center;                      /* centralizando eles*/
 }
 .item-socialmedia:not(:first-child){
-    margin-left: 14px ;
+    margin-left: 10px ;
 
 }
 .descricao-segudo-coluna{
