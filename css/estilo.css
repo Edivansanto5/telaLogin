@@ -111,12 +111,15 @@ body{
 .item-socialmedia a{
     color: #95a5a6;
 }
+.item-socialmedia{
+    margin: 0.25rem ;
+}
 .item-socialmedia {
     border: 1px solid #95a5a6;
     border-radius: 50%;                      /* border da lista dos incons*/
-    width: 40px;                             /* altura*/
-    height: 40px;                            /* largura*/
-    line-height: 40px;                       /* altura dos incons*/
+    width: 35px;                             /* altura*/
+    height: 35px;                            /* largura*/
+    line-height: 35px;                       /* altura dos incons*/
     text-align: center;                      /* centralizando eles*/
 }
 .item-socialmedia:not(:first-child){
