@@ -35,12 +35,15 @@ body{
     width: 40%;
     height: 100%;
     border-radius: 15px 0px 0px 15px; /* vai colocar somente as bordas a esquerda cima e baixo*/
+
+    left: 60%;
     
 }
 /* inicio do primeiro conteudo com a primeira coluna*/
 
 .primeiro-conteudo{
     display: flex;                          /*vai colocar uma coluna ao lado da outra*/
+    display: none;
 } 
 .primeira-coluna{
     text-align: center;
@@ -154,17 +157,25 @@ body{
     display: flex;
     align-items: center;
      margin: 8px;                            /*espacamento entre cada input*/
+}.icons-input{
+    padding: 10px;
+    color: #95a5a6;
 }
 /* final*/
 /* inicio do segundo conteudo*/
 .segundo-conteudo{
+    display: flex;
     position: absolute;                 /*  ele vai sobre por a segunda div na primeira*/
-    display: none;
+    
+}
+.segundo-conteudo .primeira-coluna{
+    order: 2;
 
 }
-.icons-input{
-    padding: 10px;
-    color: #95a5a6;
+.segundo-conteudo .segunda-coluna{
+    order: 1;
+
 }
+
 
 /* final*/
