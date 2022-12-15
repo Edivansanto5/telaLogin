@@ -127,6 +127,10 @@ body{
     margin-left: 10px ;
 
 }
+.lista-media:hover .item-socialmedia {
+    background-color: #58af9b;
+    color: #fff;
+}
 .descricao-segudo-coluna{
     color: #95a5a6;
 }
