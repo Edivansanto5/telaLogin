@@ -34,6 +34,8 @@ body{
     background-color: #58af9b;
     width: 40%;
     height: 100%;
+    border-radius: 15px 0px 0px 15px; /* vai colocar somente as bordas a esquerda cima e baixo*/
+    
 }
 /* inicio do primeiro conteudo com a primeira coluna*/
 
@@ -130,6 +132,7 @@ body{
 .link-socialMidia:hover .item-socialmedia{
     background-color: #58af9b;
     color: #fff;
+    border: #58af9b;
 }
 .descricao-segudo-coluna{
     color: #95a5a6;
