@@ -119,6 +119,10 @@ body{
     line-height: 40px;                       /* altura dos incons*/
     text-align: center;                      /* centralizando eles*/
 }
+.item-socialmedia:not(:first-child){
+    margin-left: 14px ;
+
+}
 .descricao-segudo-coluna{
     color: #95a5a6;
 }
@@ -149,6 +153,7 @@ body{
 }
 .icons-input{
     padding: 10px;
+    color: #95a5a6;
 }
 
 /* final*/
