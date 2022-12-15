@@ -90,7 +90,8 @@ body{
 }
 .btn-primary{
     background-color: transparent;
-    border: 1px solid #fff;    
+    border: 1px solid #fff;  
+    transition: background-color .55s;   /* tempo de mudanca da cor do botao*/
 }
 .btn-primary:hover{
     background-color: #fff ; 
@@ -98,6 +99,7 @@ body{
 }
 .btn-second{
     background-color: #58af9b;
+    transition: background-color .55s;
       
 }
 .btn-second:hover{
@@ -137,6 +139,7 @@ body{
     background-color: #58af9b;
     color: #fff;
     border: #58af9b;
+    transition: background-color .85s;
 }
 .descricao-segudo-coluna{
     color: #95a5a6;
