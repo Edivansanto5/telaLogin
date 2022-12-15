@@ -127,7 +127,7 @@ body{
     margin-left: 10px ;
 
 }
-.lista-media:hover .item-socialmedia {
+.link-socialMidia:hover .item-socialmedia{
     background-color: #58af9b;
     color: #fff;
 }
