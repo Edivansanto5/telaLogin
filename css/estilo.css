@@ -144,6 +144,7 @@ body{
     display: flex;                          /*vai colocar uma coluna ao lado da outra por padrao*/
     flex-direction: column;                 /*vai colocar mostra a direcao do flex aqui e um embaixo do outro*/
     width: 60%;
+    text-align: center;
 }
 .form input{
     height: 45px;                           /* altura da caixa dos input*/
@@ -167,6 +168,7 @@ body{
     display: flex;
     position: absolute;                 /*  ele vai sobre por a segunda div na primeira*/
     
+    
 }
 .segundo-conteudo .primeira-coluna{
     order: 2;
@@ -178,6 +180,9 @@ body{
 }
 .segundo-title{
     color: #fff;
+}
+.teste{
+    background-color: black;
 }
 
 
