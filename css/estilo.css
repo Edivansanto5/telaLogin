@@ -178,11 +178,12 @@ body{
 }
 .segundo-conteudo .primeira-coluna{
     order: 2;
+    z-index: -1;
 
 }
 .segundo-conteudo .segunda-coluna{
     order: 1;
-    opacity: 0;
+    z-index: -1;
 
 }
 .segundo-title{
