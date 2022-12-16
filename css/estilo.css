@@ -182,6 +182,7 @@ body{
 }
 .segundo-conteudo .segunda-coluna{
     order: 1;
+    opacity: 0;
 
 }
 .segundo-title{
