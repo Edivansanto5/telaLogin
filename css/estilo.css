@@ -55,7 +55,9 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-  
+}
+.primeiro-conteudo .segunda-coluna{
+    z-index: 12;
 }
 .title{
     color: #58af9b;
