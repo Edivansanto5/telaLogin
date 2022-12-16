@@ -193,5 +193,23 @@ body{
     background-color: black;
 }
 
-
+.sign-in-js .primeiro-conteudo .primeira-coluna,
+.sign-in-js .primeiro-conteudo .segunda-coluna{
+    z-index: -1;
+}
+.sign-in-js .segundo-conteudo .primeira-coluna,
+.sign-in-js .segundo-conteudo .segunda-coluna{
+    z-index: 12;
+}
+.sign-in-js .content::before{
+    left: 60%;
+}
+.sign-up-js .segundo-conteudo .primeira-coluna,
+.sign-up-js .segundo-conteudo .segunda-coluna{
+    z-index: -1;
+}
+.sign-up-js .primeiro-conteudo .primeira-coluna,
+.sign-up-js .primeiro-conteudo .segunda-coluna{
+    z-index: 11;
+}
 /* final*/
