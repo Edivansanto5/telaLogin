@@ -172,9 +172,7 @@ body{
 /* inicio do segundo conteudo*/
 .segundo-conteudo{
     display: flex;
-    position: absolute;                  /*ele vai sobre por a segunda div na primeira*/
-    
-    
+    position: absolute;                  /*ele vai sobre por a segunda div na primeira*/  
 }
 .segundo-conteudo .primeira-coluna{
     order: 2;
@@ -213,3 +211,8 @@ body{
     z-index: 11;
 }
 /* final*/
+input:-webkit-autofill 
+{    
+    -webkit-box-shadow: 0 0 0px 1000px #ecf0f1 inset !important;
+    -webkit-text-fill-color: #000 !important;
+}
