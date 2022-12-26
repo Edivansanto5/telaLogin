@@ -195,7 +195,7 @@ body{
 .sign-in-js .primeiro-conteudo .segunda-coluna{
     z-index: -1;
     position: relative;
-    animation: deslocamento 3s;
+    animation: deslocamentoesquerda 3s;
    
 }
 .sign-in-js .segundo-conteudo .primeira-coluna{
@@ -218,6 +218,8 @@ body{
 .sign-up-js .segundo-conteudo .primeira-coluna,
 .sign-up-js .segundo-conteudo .segunda-coluna{
     z-index: -1;
+    position: relative;
+    animation: deslocamentodireita 3s;
 }
 .sign-up-js .primeiro-conteudo .primeira-coluna{
     z-index: 13;
@@ -276,7 +278,7 @@ body{
     }
     
 }
-@keyframes deslocamento{
+@keyframes deslocamentoesquerda{
     from{
         left: 0;
         opacity: 1;
