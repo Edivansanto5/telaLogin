@@ -191,9 +191,11 @@ body{
     background-color: black;
 }
 
-.sign-in-js .primeiro-conteudo .primeira-coluna,
+.sign-in-js .primeiro-conteudo .primeira-coluna, 
 .sign-in-js .primeiro-conteudo .segunda-coluna{
     z-index: -1;
+    position: relative;
+    animation: deslocamento 3s;
    
 }
 .sign-in-js .segundo-conteudo .primeira-coluna{
@@ -216,8 +218,6 @@ body{
 .sign-up-js .segundo-conteudo .primeira-coluna,
 .sign-up-js .segundo-conteudo .segunda-coluna{
     z-index: -1;
- 
-   
 }
 .sign-up-js .primeiro-conteudo .primeira-coluna{
     z-index: 13;
@@ -276,13 +276,23 @@ body{
     }
     
 }
-/* final*/
-/* input:-webkit-autofill 
-{    
-    -webkit-box-shadow: 0 0 0px 1000px #ecf0f1 inset !important;
-    -webkit-text-fill-color: #000 !important;
+@keyframes deslocamento{
+    from{
+        left: 0;
+        opacity: 1;
+        z-index: 14;
+    }
+    25%{
+        left: -80px;
+        opacity: .5;
+    }
+    50%{
+        left: -100px;
+        opacity: .2;
+    }
+    to{
+        left: 113px;
+        opacity: 0;
+        z-index: -1;
+    }
 }
-
-body{
-    background-image: url('../img/download.jpeg');
-} */
