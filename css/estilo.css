@@ -195,7 +195,7 @@ body{
 .sign-in-js .primeiro-conteudo .segunda-coluna{
     z-index: -1;
     position: relative;
-    animation: deslocamentoesquerda 3s;
+    animation: deslocamentoesquerda 1.5s;
    
 }
 .sign-in-js .segundo-conteudo .primeira-coluna{
@@ -207,19 +207,19 @@ body{
 .sign-in-js .content::before{
     left: 60%;
     border-radius: 0px 15px 15px 0px;
-    animation: slaidin 2.7s;
+    animation: slaidin 1.5s;
     z-index: 13;
    
 }
 .sign-up-js .content::before{
-    animation: slaidup  2.7s;
+    animation: slaidup  1.5s;
     z-index: 12;
 }
 .sign-up-js .segundo-conteudo .primeira-coluna,
 .sign-up-js .segundo-conteudo .segunda-coluna{
     z-index: -1;
     position: relative;
-    animation: deslocamentodireita 3s;
+    animation: deslocamentodireita 1.5s;
 }
 .sign-up-js .primeiro-conteudo .primeira-coluna{
     z-index: 13;
@@ -313,8 +313,7 @@ body{
         opacity: .2;
     }
     to{
-        left: -113px;
-        opacity: 0;
+        left: 110px;
         z-index: -1;
     }
 }
