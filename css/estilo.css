@@ -206,8 +206,11 @@ body{
 .sign-in-js .content::before{
     left: 60%;
     border-radius: 0px 15px 15px 0px;
-    animation: passagem 2s;
+    animation: slaidin 2s;
    
+}
+.sign-up-js .content::before{
+    animation: slaidup  2s;
 }
 .sign-up-js .segundo-conteudo .primeira-coluna,
 .sign-up-js .segundo-conteudo .segunda-coluna{
@@ -220,7 +223,8 @@ body{
     z-index: 11;
   
 }
-@keyframes passagem {
+/*Animacoes nas trocas de lugares das divs*/
+@keyframes slaidin {
     from{
         left: 0;
         width: 40%;
@@ -239,6 +243,31 @@ body{
     }
     to{
         left: 60%;
+        width: 40%;
+
+    }
+    
+}
+@keyframes slaidup {
+    from{
+        left: 60%;
+        width: 40%;
+        
+    }
+    25%{
+        left: 45%;
+        width: 50%;
+    }
+    50%{
+        left: 25%;
+        width: 60%;
+    }
+    75%{
+        left: 5%;
+        width: 50%;
+    }
+    to{
+        left: 0;
         width: 40%;
 
     }
